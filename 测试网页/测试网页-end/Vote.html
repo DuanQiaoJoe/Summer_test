@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		<style type="text/css">
+			*{
+				margin: 0px;
+				
+			}
+			.back{
+				margin: 0 10% 0 10%;
+			}
+			.top{
+			   margin: 0 0 ;
+				height: 15px;
+				background-image: url(img/top.jpg);
+			}
+			.topimg{
+				margin: 0 0;
+				height: 250px;
+				margin-right: 0px;
+				background-image: url(img/banner.jpg) ;
+				background-size: cover;
+				
+			}
+			.zi{
+				color: black;
+				font-family:幼圆; 
+				font-size: 32px;
+				line-height: 50px;
+				text-align: center;
+				
+			}
+			 a:link{
+				color: white;
+			}
+			a:visited{
+				color:blue;
+			}
+			 a:hover{
+				color: red;
+				background-color: white;
+				
+			}
+			.item{
+				/*text-align: center;*/
+				background-image: url(img/top.jpg);
+				width: 100%;
+				height: 35px;
+				margin-top: -16px;
+			}
+			.select{
+				margin-top: 10px;
+			}
+		 .item .select {
+		  	margin-left: 30%;
+		  	list-style: none;
+		   	
+		  	}
+		   .item .select	li{
+		      vertical-align: middle;
+		  		display: inline;
+		  		
+		 
+		  	}
+		 .item .select	li .xuan{
+		  	vertical-align: middle;
+		  /*	color: white;*/
+			display: inline;
+			text-decoration: none;
+	
+			margin-left: 45px;
+			
+				}	
+			.tb{
+				width: 100%;
+				height: 400px;
+				border:  solid  1px darkgray;
+				border-collapse: collapse;
+				text-align: center;
+				vertical-align: center;
+				
+			}
+			.huawei{
+				width: 180px;
+				height: 100px;
+			}	 
+			.hp{
+				width: 150px;
+				height: 100px;
+			} 	
+			.apple{
+				width: 150px;
+				height: 100px;}
+			.ibm{
+				width: 150px;
+				height: 100px;
+				
+			}
+			.lenovo{
+				width: 180px;
+				height: 100px;
+			}
+			.microsoft{
+				width: 180px;
+				height: 100px;}
+			.samsung{
+				width: 180px;
+				height: 100px;
+			}
+			.oracle{
+				width: 180px;
+				height: 100px;
+			}
+			.vote{
+				margin-left: 5%;
+				margin-bottom: 5px;
+			}
+			.result{
+				margin-left: 8%;
+			}
+			.footer{
+				width: 100%;
+				margin-top: -8px;
+				height: 40px;
+				background-image: url(img/top.jpg);
+				color: white;
+				/*margin-top: -15px;*/
+				/*position: fixed;*/
+				bottom: 0;
+				
+				}
+			.foot{
+				
+				margin-top: 8px;
+			}
+			.footer .foot li{
+				margin-left: 12px;
+				vertical-align: middle;
+				display: inline;
+				color: white;
+				
+			}
+			.footer .foot li .xuan{
+				text-decoration: none;
+				color: white;
+				margin-left: 10px;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="back">
+		<section class="top">
+			
+		</section>
+		<section class="topimg">
+			<p class="zi">Which company do you like?</p>
+		</section>
+		<section class="item">
+			<ul class="select" >
+				<li ><a  class="xuan"  href="#1">首页</a></li>
+				<li ><a class="xuan" href="#2">登录</a></li>
+				<li ><a class="xuan" href="#3">注册</a></li>
+			</ul>
+			
+		</section>
+		<table class="tb" border="1">
+			<tr>
+				<td ><img class="huawei" src="img/huawei.jpg"/>
+					<span class="result">5票</span><br/><br/><input class="vote" type="button" value="投票" /></td>
+				<td ><img class="hp" src="img/hp.jpg"/>
+					<span class="result">15票</span><br/><br/><input class="vote" type="button" value="投票" />
+				</td>
+				<td ><img class="apple" src="img/apple.jpg"/>
+					<span class="result">10票</span><br/><br/><input class="vote" type="button" value="投票" />
+				</td>
+				<td ><img class="ibm" src="img/ibm.jpg"/>
+					<span class="result">5票</span><br/><br/><input class="vote" type="button" value="投票" />
+				</td>
+				
+			</tr>
+			<tr>
+				
+				<td ><img class="lenovo" src="img/lenovo.jpg"/>
+					<span class="result">5票</span><br/><br/><input class="vote" type="button" value="投票" />
+				</td>
+				<td ><img class="microsoft" src="img/microsoft.jpg"/>
+					<span class="result">5票</span><br/><br/><input class="vote" type="button" value="投票" />
+				</td>
+				<td ><img class="samsung" src="img/sanxing.jpg"/>
+					<span class="result">15票</span><br/><br/><input class="vote" type="button" value="投票" />
+				</td>
+				<td ><img class="oracle" src="img/oracle.jpg"/>
+					<span class="result">5票</span><br/><br/><input class="vote" type="button" value="投票" />
+				</td>
+				
+			</tr>
+			
+			
+		</table>
+		<section class="footer">
+			<ul class="foot"  >
+				<li >友情链接:</li>
+				<li style="vertical-align: middle;"><a  class="xuan"  href="">惠普</a></li>
+				<li>|</li>
+				<li ><a class="xuan" href="#4">华为</a></li>
+				<li>|</li>
+				<li ><a class="xuan" href="#5">联想</a></li>
+				<li>|</li>
+				<li ><a class="xuan" href="#6">三星</a></li>
+				<li>|</li>
+				<li ><a class="xuan" href="#7">Apple</a></li>
+				<li>|</li>
+				<li ><a class="xuan" href="#8">IBM</a></li>
+				<li>|</li>
+				<li ><a class="xuan" href="#9">Oracle</a></li>
+				<li>|</li>
+				<li ><a class="xuan" href="#0">Microsoft</a></li>
+			
+			</ul>
+			
+		</section>
+		</div>
+	</body>
+</html>
